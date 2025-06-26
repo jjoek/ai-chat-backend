@@ -1,0 +1,17 @@
+{
+  "name": "Node.js with Docker Compose",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "backend",
+  "workspaceFolder": "/backend",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3333],
+  "postCreateCommand": "npm install",
+  "remoteUser": "root"
+}
