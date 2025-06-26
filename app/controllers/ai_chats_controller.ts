@@ -51,7 +51,7 @@ export default class AiChatsController {
       success: true,
       message: 'List of supported models',
       models,
-      selectedModel: models.find((m) => m.id === 'gpt-4') || models[0],
+      selectedModel: models.find((m) => m.id === 'deepseek-r1:1.5b') || models[0],
     })
   }
 
