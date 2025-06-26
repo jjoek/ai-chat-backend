@@ -59,6 +59,7 @@
     "@vinejs/vine": "^3.0.1",
     "langchain": "^0.3.29",
     "ollama": "^0.5.16",
+    "pdf-parse": "^1.1.1",
     "reflect-metadata": "^0.2.2"
   },
   "hotHook": {
